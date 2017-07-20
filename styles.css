@@ -57,6 +57,9 @@ nav section img{
 nav a:hover{
   color: #CD5D67;
 }
+nav a:active{
+  color: #968772;
+}
 
 
 
