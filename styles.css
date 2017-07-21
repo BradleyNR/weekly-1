@@ -210,6 +210,14 @@ footer {
   line-height: 200%;
 }
 
+#inlinelink:hover {
+  color: #967343;
+}
+
+#inlinelink {
+  color: #968772;
+}
+
 #text_and_figcaption figure img {
   width: 160px;
   height: 120px;
