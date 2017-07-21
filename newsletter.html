@@ -27,15 +27,32 @@
     <div id="form">
       <h1 class="header_newsletter" id="first_newsletter_header">Sign Up for Our Weekly Newsletter</h1>
       <h2 class="header_newsletter" id="second_newsletter_header">Stay up to date with events, activities, news and specials.</h2>
-      <form class="form_elements" action="index.html" method="post">
-        <input type="text" name="name" value="Name"><br>
-        <input id="bottominput" type="text" name="email" value="Email"><br>
-        <button id="button_newsletter" type="submit" id="submit">Submit</button>
+      <form class="form_elements" action="newsletter.html" method="post">
+        <input id="nameInput" type="text" name="name" placeholder="Name"><br>
+        <input id="emailInput" type="text" name="email" placeholder="Email"><br>
+        <button id="signupButton" type="submit" id="submit">Submit</button>
       </form>
 
     </div>
 
   </main>
+
+  <script type="text/javascript">
+    var nameInput = document.getElementById('nameInput');
+    var emailInput = document.getElementById('emailInput');
+    var signupButton = document.getElementById('signupButton');
+    signupButton.addEventListener('click', function(e) {
+      var nameVal = nameInput.value;
+      var emailVal = emailInput.value;
+      if (nameVal && emailVal) {
+        alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+        nameInput.value = "";
+        emailInput.value = "";
+      } else {
+        alert('We would love for you to sign up, please provide both your name and email address.');
+      }
+    });
+  </script>
 
 </body>
 

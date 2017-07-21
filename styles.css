@@ -350,7 +350,7 @@ input {
   outline: none;
 }
 
-#button_newsletter {
+#signupButton {
   background-color: #938774;
   border: none;
   color: #ffffff;
@@ -359,6 +359,6 @@ input {
   margin: auto;
 }
 
-#bottominput {
+#emailInput {
   margin-top: 15px;
 }
