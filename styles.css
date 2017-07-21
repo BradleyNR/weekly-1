@@ -286,3 +286,27 @@ table tbody tr:nth-child(odd) {
 
 
 /*Newsletter CSS*/
+
+#main_newsletter {
+  background-image: url(images/background-2.jpg);
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#main_newsletter #form h1, h2 {
+  color: #000000;
+}
+
+#form {
+  background-color: #FFFFFF;
+  width: 614px;
+  height: 380px;
+  margin: auto;
+  margin-top: 120px;
+}
