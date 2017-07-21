@@ -357,3 +357,7 @@ input {
   height: 54px;
   margin: auto;
 }
+
+#bottominput {
+  margin-top: 15px;
+}
